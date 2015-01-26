@@ -14,7 +14,8 @@
 import os
 
 import fixtures
-from oslo.serialization import jsonutils
+import mock
+from oslo_serialization import jsonutils
 import requests
 from requests_mock.contrib import fixture as requests_mock_fixture
 import six

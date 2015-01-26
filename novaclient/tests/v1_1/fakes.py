@@ -16,7 +16,8 @@
 
 import datetime
 
-from oslo.utils import strutils
+import mock
+from oslo_utils import strutils
 import six
 from six.moves.urllib import parse
 
